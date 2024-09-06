@@ -64,18 +64,18 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#!">Sejarah</a></li>
-                                    <li><a href="#!">Pariwisata</a></li>
-                                    <li><a href="#!">Live In</a></li>
-                                    <li><a href="#!">Education</a></li>
+                                    <li><a href="<?php echo e(url('/tentang/sejarah')); ?>">Sejarah</a></li>
+                                    <li><a href="<?php echo e(url('/tentang/pariwisata')); ?>">Pariwisata</a></li>
+                                    <li><a href="<?php echo e(url('/paket-wisata/live-in')); ?>">Live In</a></li>
+                                    <li><a href="<?php echo e(url('/paket-wisata/education')); ?>">Education</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#!">Outbond</a></li>
-                                    <li><a href="#!">Fashoion</a></li>
-                                    <li><a href="#!">Kerajinan</a></li>
-                                    <li><a href="#!">Kuliner</a></li>
+                                    <li><a href="<?php echo e(url('/paket-wisata/outbond')); ?>">Outbond</a></li>
+                                    <li><a href="<?php echo e(url('/produk/fashion')); ?>">Fashoion</a></li>
+                                    <li><a href="<?php echo e(url('/produk/kerajinan')); ?>">Kerajinan</a></li>
+                                    <li><a href="<?php echo e(url('/produk/kuliner')); ?>">Kuliner</a></li>
                                 </ul>
                             </div>
                         </div>
