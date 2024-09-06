@@ -24,19 +24,8 @@
   <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
   <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  {{-- <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet"> --}}
-  {{-- <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"> --}}
-  {{-- @vite(['public/assets/css/main.css', 'public/assets/js/main.js']) --}}
-  @vite(['resources/css/main.css', 'resources/js/main.js'])
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-  <!-- =======================================================
-  * Template Name: Arsha
-  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
